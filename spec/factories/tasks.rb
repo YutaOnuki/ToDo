@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :task do
-    name { "MyString" }
+    name { "running" }
     is_done { false }
   end
 end
