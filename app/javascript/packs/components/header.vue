@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar is-info" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" href="/">ToDo Application</a>
+      <router-link to="/" class="navbar-item">ToDo Application</router-link>
       <a role="button" class="navbar-burger is-active" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
@@ -17,9 +17,9 @@
             Menu
           </a>
           <div class="navbar-dropdown">
-            <a class="navbar-item" href="#">Top</a>
-            <a class="navbar-item" href="#">About</a>
-            <a class="navbar-item" href="#">Content</a>
+            <router-link to="/" class="navbar-item">Top</router-link>
+            <router-link to="/about" class="navbar-item">About</router-link>
+            <router-link to="/contact" class="navbar-item">Content</router-link>
           </div>
         </div>
       </div>

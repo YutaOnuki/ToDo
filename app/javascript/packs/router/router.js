@@ -6,11 +6,11 @@ import Contact from '../components/contact.vue'
 
 Vue.use(VueRouter)
 
-export default VueRouter({
+export default new VueRouter({
   mode: 'history',
   routes: [
-    { path: '/', comment: Index},
-    { path: '/about', comment: About},
+    { path: '/', component: Index},
+    { path: '/about', component: About},
     { path: '/contact', component: Contact},
   ],
 })
